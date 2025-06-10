@@ -1,7 +1,7 @@
 import { generateStaticParams as generateStatic } from "@/utils/generateStaticParams";
 import fs from "fs";
 import matter from "gray-matter";
-import Markdown from "react-markdown";
+import Markdown from "markdown-to-jsx";
 
 function getContent(slug: string): matter.GrayMatterFile<string> {
   const folder = "markdown/websites/";

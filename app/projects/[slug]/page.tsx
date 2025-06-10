@@ -1,4 +1,4 @@
-import Markdown from "react-markdown";
+import Markdown from "markdown-to-jsx";
 
 export default async function SpecificProjectPage({
   params,
