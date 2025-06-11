@@ -39,8 +39,8 @@ export default function Home() {
         <Link href={"/about-me/"} className="section-button">
           About Me (TODO)
         </Link>
-        <Link href={"/learn-with-me/"} className="section-button">
-          Learn with Me (TODO)
+        <Link href={"/what-am-i-learning/"} className="section-button">
+          What am I Learning (TODO)
         </Link>
         <Link href={"/where-i-learn/"} className="section-button">
           Where I Learn (TODO)
