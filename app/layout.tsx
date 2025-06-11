@@ -26,7 +26,7 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   const header = (
-    <header className="text-3xl font-bold p-4 flex justify-center ">
+    <header className="text-3xl font-bold p-4 flex justify-center">
       <Link href={"/"} className={`${cherry.className}`}>
         <h1 className="">Ethan&#39;s Corner</h1>
       </Link>
