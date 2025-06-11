@@ -1,4 +1,4 @@
-import { generateStaticParams as generateStatic } from "@/utils/generateStaticParams";
+import { generateStatic } from "@/utils/generateStaticParams";
 import fs from "fs";
 import matter from "gray-matter";
 import Markdown from "markdown-to-jsx";
@@ -12,12 +12,14 @@ function getContent(slug: string): matter.GrayMatterFile<string> {
   return matterResult;
 }
 
-export const generateStaticParams = () => generateStatic("markdown/websites");
+export function generateStaticParams() {
+  return generateStatic("markdown/websites");
+}
 
-export default async function WebsitePage({
+export default async function Page({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
   const page = getContent(slug);

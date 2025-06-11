@@ -1,33 +1,20 @@
 import fs from "fs";
 import matter from "gray-matter";
 
-type ProjectMeta = {
+type FrontMatter = {
   title: string;
   description: string;
-  tags?: string[];
-};
-
-type RecipeMeta = {
-  title: string;
-  prep_time: string;
-  cook_time: string;
-  description: string;
-};
-
-type PostMeta = {
-  title: string;
-  description: string;
-  date: string;
+  date?: string;
   tag?: string[];
+
+  // recipes
+  prep_time?: string;
+  cook_time?: string;
 };
 
-type FrontMatter = ProjectMeta | RecipeMeta | PostMeta;
-
-export default function getDisplayMetadata<T = FrontMatter>(
-  basepath: string
-): {
+export default function getDisplayMetadata(basepath: string): {
   slug: string;
-  metadata: T;
+  metadata: FrontMatter;
   content: string;
 }[] {
   const folder = basepath + "/";
@@ -44,7 +31,7 @@ export default function getDisplayMetadata<T = FrontMatter>(
 
     return {
       slug: filename.replace(".md", ""),
-      metadata: data as T,
+      metadata: data as FrontMatter,
       content,
     };
   });

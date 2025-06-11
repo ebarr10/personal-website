@@ -1,11 +1,12 @@
 import Markdown from "markdown-to-jsx";
 
-export default async function SpecificNotesPage({
+export default async function Page({
   params,
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
   const { slug } = await params;
+
   return (
     <main>
       <article>

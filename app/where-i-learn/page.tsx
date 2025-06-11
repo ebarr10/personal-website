@@ -1,3 +1,3 @@
-export default async function LearnPage() {
+export default function LearnPage() {
   return <main>This is where I typically learn!</main>;
 }
