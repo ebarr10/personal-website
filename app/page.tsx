@@ -4,18 +4,21 @@ import { FaGithub, FaLinkedin } from "react-icons/fa";
 export default function Home() {
   return (
     <main className="container max-w-screen-xl mx-auto px-4">
-      <section className="grid grid-cols-1 gap-4">
-        <h3 className="font-extrabold text-2xl tracking-wide">
+      <section className="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <h3 className="grid-cols-2 md:col-span-2 pt-10 font-extrabold text-2xl tracking-wide">
           &gt;&gt;&gt; Live Websites
         </h3>
         <Link href={"/websites/react-capstone"} className="section-button">
           React Capstone
         </Link>
-        <Link href={""} className="section-button">
-          Website B (TODO)
+        <Link href={"/websites/cooking-club"} className="section-button">
+          Cooking Club
         </Link>
         <Link href={""} className="section-button">
           Website C (TODO)
+        </Link>
+        <Link href={""} className="section-button">
+          Website D (TODO)
         </Link>
       </section>
       <section className="grid grid-cols-1 gap-4">

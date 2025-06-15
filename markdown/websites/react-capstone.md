@@ -7,9 +7,11 @@ description: A hands-on project built to practice and solidify React concepts le
 
 This project was developed as part of the [Zero To Mastery: Learn React](https://zerotomastery.io/courses/learn-react/) course. It provided an excellent opportunity to apply and deepen understanding of core React concepts and modern frontend development practices.
 
-### Key Concepts Applied:
+---
 
-- Components & Props
+### 🧠 Key Concepts Applied:
+
+- React Components & Props
 - State Management (Redux, Context API)
 - Middleware: Redux Thunk & Redux Saga
 - Event Handling & Conditional Rendering
@@ -26,7 +28,7 @@ Explore the live application [here](https://ebarr10-react-capstone.netlify.app)
 
 ---
 
-## 📁 Tech Stack & Libraries
+## 🛠️ Tech Stack & Libraries
 
 - **React**
 - **Redux** & **React Redux** (for centralized state management)
@@ -53,6 +55,8 @@ This project enhanced my practical skills in:
 - Handling real-world API integrations (e.g. Stripe)
 
 ---
+
+## 🧾 Source Code & Final Thoughts
 
 Feel free to explore the [source code](https://github.com/ebarr10/ztm-capstone-clothing-store) and design decisions. This capstone was a valuable milestone in my React learning journey and serves as a strong foundation for future projects.
 
