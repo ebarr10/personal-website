@@ -11,7 +11,7 @@ This project also helped solidify key frontend and backend skills—particularly
 
 ---
 
-## 🧠 Key Concepts Applied
+### 🧠 Key Concepts Applied
 
 - ⚛️ React Components & Props
 - 📦 Context API for lightweight state management
@@ -24,13 +24,13 @@ This project also helped solidify key frontend and backend skills—particularly
 
 ---
 
-## 🔗 Live Demo
+### 🔗 Live Demo
 
 Explore the live application [here](https://ebarr10.github.io/cooking-club)
 
 ---
 
-## 🛠️ Tech Stack & Libraries
+### 🛠️ Tech Stack & Libraries
 
 - **React**
 - **React Context API**
@@ -42,7 +42,7 @@ Explore the live application [here](https://ebarr10.github.io/cooking-club)
 
 ---
 
-## 📚 What I Learned
+### 📚 What I Learned
 
 Through building this project, I deepened my understanding of:
 
@@ -56,7 +56,7 @@ Through building this project, I deepened my understanding of:
 
 ---
 
-## 🧾 Source Code & Final Thoughts
+### 🧾 Source Code & Final Thoughts
 
 You can explore the [source code on GitHub](https://github.com/ebarr10/cooking-club) to see how the project is structured. This project was both a technical and creative milestone—blending frontend engineering with a community-building concept that made tech more personal and fun.
 

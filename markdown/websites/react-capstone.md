@@ -22,13 +22,13 @@ This project was developed as part of the [Zero To Mastery: Learn React](https:/
 
 ---
 
-## 🔗 Live Demo
+### 🔗 Live Demo
 
 Explore the live application [here](https://ebarr10-react-capstone.netlify.app)
 
 ---
 
-## 🛠️ Tech Stack & Libraries
+### 🛠️ Tech Stack & Libraries
 
 - **React**
 - **Redux** & **React Redux** (for centralized state management)
@@ -41,7 +41,7 @@ Explore the live application [here](https://ebarr10-react-capstone.netlify.app)
 
 ---
 
-## 📚 What I Learned
+### 📚 What I Learned
 
 This project enhanced my practical skills in:
 
@@ -56,7 +56,7 @@ This project enhanced my practical skills in:
 
 ---
 
-## 🧾 Source Code & Final Thoughts
+### 🧾 Source Code & Final Thoughts
 
 Feel free to explore the [source code](https://github.com/ebarr10/ztm-capstone-clothing-store) and design decisions. This capstone was a valuable milestone in my React learning journey and serves as a strong foundation for future projects.
 
