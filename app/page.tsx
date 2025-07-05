@@ -9,7 +9,7 @@ export default function Home() {
           &gt;&gt;&gt; Live Websites
         </h3>
         <Link href={"/websites/react-capstone"} className="section-button">
-          React Capstone
+          React Capstone Clothing Store
         </Link>
         <Link href={"/websites/cooking-club"} className="section-button">
           Cooking Club
@@ -23,7 +23,7 @@ export default function Home() {
           &gt;&gt;&gt; Pages
         </h3>
         <Link href={`/projects/`} className="section-button">
-          Projects (TODO)
+          Side Projects (In Progress)
         </Link>
         <Link href={"/recipes/"} className="section-button">
           Recipes (TODO)
