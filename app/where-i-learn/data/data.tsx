@@ -29,6 +29,11 @@ const websitesAndPlatforms = {
     ],
     ["MDN Web Docs", "Frontend reference", "HTML/CSS/JS documentation"],
     ["Stack Overflow", "Q&A for devs", "Debugging and quick answers"],
+    [
+      "GitHub",
+      "The place where all the code lives",
+      "Where I host my code, check out cool new tools, get inspired, and collaborate with others.",
+    ],
   ],
   links: [
     "https://zerotomastery.io/",
