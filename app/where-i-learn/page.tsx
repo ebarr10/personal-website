@@ -119,7 +119,7 @@ function ResourceTable({
                   <td key={j} className="px-4 py-2">
                     <a
                       href={links?.[i] || "#"}
-                      className="text-blue-600 hover:underline"
+                      className="!text-blue-600"
                       target="_blank"
                       rel="noopener noreferrer"
                     >
