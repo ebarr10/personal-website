@@ -13,7 +13,8 @@ export default function LearnPage() {
         <h1 className="text-4xl font-bold mb-4">📚 Where I Learn</h1>
         <p className="text-lg text-gray-600">
           A curated list of YouTubers, websites, and other resources that shape
-          how I learn, grow, and build.
+          how I learn, grow, and build. This will keep adding to these tables as
+          I find new resources. Always open to recommendations.
         </p>
       </section>
 
@@ -60,13 +61,7 @@ export default function LearnPage() {
       <Section title="💡 Other Sources">
         <ul className="list-disc list-inside space-y-2 text-gray-700">
           <li>
-            <strong>Twitter/X:</strong> @thekitze, @cassidoo, @kentcdodds
-          </li>
-          <li>
             <strong>Reddit:</strong> r/webdev, r/learnprogramming, r/django
-          </li>
-          <li>
-            <strong>Discord:</strong> Fireship, Theo, Devcord
           </li>
         </ul>
       </Section>
