@@ -23,7 +23,7 @@ export default function Home() {
           &gt;&gt;&gt; Pages
         </h3>
         <Link href={`/projects/`} className="section-button">
-          Side Projects (In Progress)
+          Side Projects
         </Link>
         <Link href={"/recipes/"} className="section-button">
           Recipes (TODO)
@@ -43,7 +43,7 @@ export default function Home() {
           What am I Learning (TODO)
         </Link>
         <Link href={"/where-i-learn/"} className="section-button">
-          Where I Learn (TODO)
+          Where I Learn
         </Link>
       </section>
       <section className="flex flex-row gap-4 content-center justify-self-center pt-8">
