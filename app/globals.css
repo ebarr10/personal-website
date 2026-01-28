@@ -115,11 +115,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    text-decoration: underline;
-    text-underline-offset: 3px;
-}
-
 /* Keyboard accessibility = “professional” */
 :focus-visible {
     outline: 2px solid rgb(var(--ring));
@@ -240,10 +235,11 @@ a:hover {
 }
 
 @layer base {
-  * {
-    @apply border-border outline-ring/50;
+    * {
+        @apply border-border outline-ring/50;
     }
-  body {
-    @apply bg-background text-foreground;
+
+    body {
+        @apply bg-background text-foreground;
     }
 }
