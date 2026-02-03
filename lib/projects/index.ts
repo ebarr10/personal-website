@@ -5,8 +5,8 @@ import type { FeaturedProject } from "./types";
 
 export const featuredProjects: FeaturedProject[] = [
     changelogscribe,
-    cookingclub,
     clothingstore,
+    cookingclub,
 ];
 
 export function getFeaturedProject(slug: string) {
