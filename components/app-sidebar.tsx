@@ -40,6 +40,10 @@ const data = [
                 url: "/projects/changelogscribe/",
             },
             {
+                title: "Clothing Store Prototype",
+                url: "/projects/clothing-store/",
+            },
+            {
                 title: "Cooking Club",
                 url: "/projects/cooking-club/",
             },
