@@ -10,7 +10,13 @@ import {
 } from "lucide-react";
 
 import { NavMain } from "@/components/nav-main";
-import { Sidebar, SidebarContent, SidebarRail } from "@/components/ui/sidebar";
+import {
+    Sidebar,
+    SidebarContent,
+    SidebarFooter,
+    SidebarRail,
+    useSidebar,
+} from "@/components/ui/sidebar";
 
 const data = [
     {
@@ -92,6 +98,22 @@ export function AppSidebar({ ...props }: React.ComponentProps<typeof Sidebar>) {
                 <NavMain items={data} />
             </SidebarContent>
             <SidebarRail />
+            <SidebarFooter>
+                <FooterContent />
+            </SidebarFooter>
         </Sidebar>
+    );
+}
+
+function FooterContent() {
+    const { state } = useSidebar(); // "expanded" | "collapsed"
+
+    if (state === "collapsed") return null;
+
+    return (
+        <div className="px-2 py-3 text-xs text-slate-500 leading-snug">
+            <div>© {new Date().getFullYear()} Ethan</div>
+            <div className="opacity-70">Projects, experiments, learnings</div>
+        </div>
     );
 }

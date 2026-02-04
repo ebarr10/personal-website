@@ -19,13 +19,13 @@ export default function Home() {
                         What I do
                     </h2>
                     <p className="mt-2 text-sm leading-6 text-slate-900">
-                        I primarily work on backend systems—APIs, internal
-                        tools, and cloud-based infrastructure—where correctness,
-                        reliability, and maintainability matter. I also make a
-                        point to keep developing across other areas of the
-                        stack, whether that’s frontend work, data workflows, or
-                        product-level decisions, so I understand how the pieces
-                        fit together.
+                        I primarily work on backend systems including APIs,
+                        internal tools, and cloud-based infrastructure where
+                        correctness, reliability, and maintainability matter. I
+                        also make a point to keep developing across other areas
+                        of the stack, whether that’s frontend work, data
+                        workflows, or product-level decisions, so I understand
+                        how the pieces fit together.
                     </p>
                 </Card>
 
@@ -51,7 +51,7 @@ export default function Home() {
                         This site brings together my professional work, side
                         projects, and writing in one place, with an emphasis on
                         keeping things organized and easy to explore. Not
-                        everything here will be relevant to everyone—but for
+                        everything here will be relevant to everyone, but for
                         those who are interested, it’s meant to be a clear
                         snapshot of what I’ve been building and learning.
                     </p>
