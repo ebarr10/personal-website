@@ -49,7 +49,7 @@ const data = [
             },
             {
                 title: "Misc Projects",
-                url: "/projects/misc-projects/",
+                url: "/projects/misc/",
             },
         ],
     },
