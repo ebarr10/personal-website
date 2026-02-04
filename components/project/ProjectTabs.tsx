@@ -48,6 +48,28 @@ export function ProjectTabs({ tabs }: { tabs: ProjectTab[] }) {
                             </div>
                         ) : null}
 
+                        {t.sections?.length ? (
+                            <div className="space-y-4">
+                                {t.sections.map((section) => (
+                                    <div key={section.label}>
+                                        <div className="text-sm font-medium opacity-80">
+                                            {section.label}
+                                        </div>
+                                        <div className="mt-2 flex flex-wrap gap-2">
+                                            {section.items.map((item) => (
+                                                <span
+                                                    key={item}
+                                                    className="rounded-full border px-3 py-1 text-sm"
+                                                >
+                                                    {item}
+                                                </span>
+                                            ))}
+                                        </div>
+                                    </div>
+                                ))}
+                            </div>
+                        ) : null}
+
                         {t.links?.length ? (
                             <div className="flex flex-wrap gap-3">
                                 {t.links.map((l) => (

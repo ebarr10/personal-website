@@ -3,8 +3,14 @@ import Link from "next/link";
 import { ProjectTabs } from "@/components/project/ProjectTabs";
 import { getFeaturedProject } from "@/lib/projects";
 
-export default function ProjectPage({ params }: { params: { slug: string } }) {
-    const project = getFeaturedProject(params.slug);
+export default async function ProjectPage({
+    params,
+}: {
+    params: Promise<{ slug: string }>;
+}) {
+    const { slug } = await params;
+
+    const project = getFeaturedProject(slug);
     if (!project) return notFound();
 
     return (

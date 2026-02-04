@@ -1,5 +1,10 @@
 export type ProjectLink = { label: string; url: string };
 
+type TechSection = {
+    label: string;
+    items: string[];
+};
+
 export type ProjectTab = {
     id: string;
     label: string;
@@ -7,6 +12,7 @@ export type ProjectTab = {
     bullets?: string[];
     tags?: string[];
     links?: ProjectLink[];
+    sections?: TechSection[];
 };
 
 export type FeaturedProject = {
@@ -16,6 +22,7 @@ export type FeaturedProject = {
     badges?: string[]; // small tags like “Product”, “LLM”, etc.
     links?: ProjectLink[]; // live, github, producthunt, etc.
     tabs: ProjectTab[];
+    sections?: TechSection[];
 };
 
 export type MiscProject = {
