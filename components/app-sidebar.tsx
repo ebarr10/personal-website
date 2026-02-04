@@ -59,8 +59,8 @@ const data = [
         icon: Pencil,
         items: [
             {
-                title: "Engineering Notes",
-                url: "/writing/engineering-notes/",
+                title: "Developer Notes",
+                url: "/writing/developer-notes/",
             },
             {
                 title: "Chinese Learning",
