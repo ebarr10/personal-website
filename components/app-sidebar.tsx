@@ -60,17 +60,21 @@ const data = [
         ],
     },
     {
-        title: "Notes",
+        title: "Notes (WIP)",
         url: "/notes/",
         icon: Pencil,
         items: [
             {
                 title: "Developer Notes",
-                url: "/notes/developer-notes/",
+                url: "/notes/developer/",
             },
             {
                 title: "Chinese Learning",
-                url: "/notes/chinese-learning/",
+                url: "/notes/chinese/",
+            },
+            {
+                title: "Cooking Experiments",
+                url: "/notes/cooking/",
             },
         ],
     },
