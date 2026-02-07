@@ -9,7 +9,6 @@ type Filter = "all" | "app" | "tool" | "experiment" | "course";
 
 const FILTERS: { id: Filter; label: string }[] = [
     { id: "all", label: "All" },
-    { id: "app", label: "Apps" },
     { id: "tool", label: "Tools" },
     { id: "experiment", label: "Experiments" },
     { id: "course", label: "Courses" },

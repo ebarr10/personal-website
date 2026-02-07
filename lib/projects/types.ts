@@ -31,6 +31,6 @@ export type MiscProject = {
     repoUrl?: string;
     liveUrl?: string;
     tags?: string[];
-    kind?: "tool" | "experiment" | "course" | "app";
+    kind?: "tool" | "experiment" | "course" | "other";
     isPrivate?: boolean;
 };
