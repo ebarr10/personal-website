@@ -3,7 +3,6 @@ import { Geist_Mono } from "next/font/google";
 import { SidebarProvider, SidebarTrigger } from "@/components/ui/sidebar";
 import { AppSidebar } from "@/components/app-sidebar";
 import "./globals.css";
-import "../styles/markdown.scss";
 
 const geistMono = Geist_Mono({
     variable: "--font-geist-mono",

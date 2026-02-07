@@ -60,17 +60,17 @@ const data = [
         ],
     },
     {
-        title: "Writing",
-        url: "/writing/",
+        title: "Notes",
+        url: "/notes/",
         icon: Pencil,
         items: [
             {
                 title: "Developer Notes",
-                url: "/writing/developer-notes/",
+                url: "/notes/developer-notes/",
             },
             {
                 title: "Chinese Learning",
-                url: "/writing/chinese-learning/",
+                url: "/notes/chinese-learning/",
             },
         ],
     },
@@ -85,7 +85,7 @@ const data = [
             },
             {
                 title: "Where I Learn",
-                url: "/about/where-i-learn/",
+                url: "/about/learn/",
             },
         ],
     },
