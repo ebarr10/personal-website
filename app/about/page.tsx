@@ -16,7 +16,7 @@ export default function AboutPage() {
                 <InfoCard title="Why I built this">
                     <p>
                         I wanted a simple, long-lived place to keep my work and
-                        thinking in one spot—projects I’ve shipped, experiments
+                        thinking in one spot. Projects I’ve shipped, experiments
                         in progress, and notes that capture what I learned along
                         the way.
                     </p>
