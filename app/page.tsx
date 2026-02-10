@@ -9,8 +9,8 @@ export default function Home() {
                 <h2 className="text-2xl mb-6">Software Engineer & Developer</h2>
 
                 <p className="mx-auto mt-6 max-w-prose text-slate-700 leading-relaxed">
-                    Software engineer working across the stack, focused on
-                    building reliable, well-considered products.
+                    My focus is building reliable well-considered products
+                    across the stack.
                 </p>
             </section>
             <div className="mt-10 space-y-6">
@@ -20,12 +20,11 @@ export default function Home() {
                     </h2>
                     <p className="mt-2 text-sm leading-6 text-slate-900">
                         I primarily work on backend systems including APIs,
-                        internal tools, and cloud-based infrastructure where
-                        correctness, reliability, and maintainability matter. I
-                        also make a point to keep developing across other areas
-                        of the stack, whether that’s frontend work, data
-                        workflows, or product-level decisions, so I understand
-                        how the pieces fit together.
+                        internal tools, and cloud-based infrastructure with an
+                        emphasis on correctness, reliability, and
+                        maintainability. I also keep hands-on across the rest of
+                        the stack, from frontend, data workflows, and product
+                        decisions, to understand how everything comes together.
                     </p>
                 </Card>
 
@@ -35,11 +34,10 @@ export default function Home() {
                     </h2>
                     <p className="mt-2 text-sm leading-6 text-slate-900">
                         I built this site as a simple, long-lived home for my
-                        work, side projects, and notes as I learn. I do my best
-                        to keep things up to date here, but for the most current
-                        view of what I’m working on, my GitHub is always the
-                        most accurate source. If you’d like to connect or reach
-                        out, LinkedIn is usually the easiest way.
+                        work, side projects, and learning notes. I try to keep
+                        it up to date, but my GitHub is always the most accurate
+                        source. If you'd like to connect, LinkedIn is usually
+                        the easiest way to reach me.
                     </p>
                 </Card>
 
@@ -49,11 +47,11 @@ export default function Home() {
                     </h2>
                     <p className="mt-2 text-sm leading-6 text-slate-900">
                         This site brings together my professional work, side
-                        projects, and writing in one place, with an emphasis on
-                        keeping things organized and easy to explore. Not
-                        everything here will be relevant to everyone, but for
-                        those who are interested, it’s meant to be a clear
-                        snapshot of what I’ve been building and learning.
+                        projects, and writing in one place, with a focus on
+                        keeping everything organized and easy to explore. It's
+                        not all relevant to everyone, but for those who are
+                        interested, it provides a clear snapshot of what I've
+                        been building and learning.
                     </p>
                 </Card>
             </div>

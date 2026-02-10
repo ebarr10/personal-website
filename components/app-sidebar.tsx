@@ -60,7 +60,7 @@ const data = [
         ],
     },
     {
-        title: "Notes (WIP)",
+        title: "Notes",
         url: "/notes/",
         icon: Pencil,
         items: [

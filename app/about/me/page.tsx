@@ -53,17 +53,21 @@ export default function AboutMePage() {
                 </div>
                 <div className="px-5 py-4">
                     <ul className="list-disc pl-5 space-y-2 text-slate-700">
-                        <li>I value clarity over cleverness</li>
                         <li>
-                            I prefer simple systems that are easy to reason
-                            about
+                            I like code that’s easy to read and reason about,
+                            even when it’s doing something clever
                         </li>
                         <li>
-                            I try to ship, then iterate, instead of waiting for
-                            “perfect”
+                            I focus on building systems that stay understandable
+                            and dependable over time.
                         </li>
                         <li>
-                            I write things down so lessons compound over time
+                            I aim to deliver stable, maintainable solutions and
+                            improve them over time.
+                        </li>
+                        <li>
+                            The more I’m exposed to a problem or pattern, the
+                            faster I tend to learn it
                         </li>
                     </ul>
                 </div>
