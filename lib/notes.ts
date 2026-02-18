@@ -31,6 +31,19 @@ export function getNoteSlugs(category: string): string[] {
         .map((f) => f.replace(/\.mdx$/, ""));
 }
 
+export function getNotesDisplay(category: string) {
+    switch (category) {
+        case "cooking":
+            return "Cooking Experiments";
+        case "chinese":
+            return "Chinese Learning Notes";
+        case "developer":
+            return "Developer Notes";
+        default:
+            return category;
+    }
+}
+
 export function getNote(category: string, slug: string): Note {
     const filePath = path.join(categoryDir(category), `${slug}.mdx`);
     const raw = fs.readFileSync(filePath, "utf8");

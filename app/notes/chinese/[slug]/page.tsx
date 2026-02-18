@@ -1,15 +1,14 @@
-export default function ChineseNotePage() {
-    return (
-        <main className="max-w-3xl mx-auto px-4 py-12 space-y-10">
-            <header className="space-y-3">
-                <h1 className="text-3xl font-semibold tracking-tight">
-                    Chinese Learning Notes
-                </h1>
-                <p className="text-slate-600 leading-relaxed max-w-prose">
-                    A collection of notes, resources, and reflections from my
-                    journey learning Chinese.
-                </p>
-            </header>
-        </main>
-    );
+import { getNoteSlugs } from "@/lib/notes";
+import NotesTable from "@/components/notes/notes-table";
+
+export function generateStaticParams() {
+    return getNoteSlugs("chinese").map((slug) => ({ slug }));
+}
+
+export default function ChineseNotePage({
+    params,
+}: {
+    params: { slug: string };
+}) {
+    return <NotesTable category="chinese" params={params} />;
 }

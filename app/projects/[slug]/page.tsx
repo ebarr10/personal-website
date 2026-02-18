@@ -1,6 +1,6 @@
 import { notFound } from "next/navigation";
 import Link from "next/link";
-import { ProjectTabs } from "@/components/project/ProjectTabs";
+import { ProjectTabs } from "@/components/project/project-tabs";
 import { getFeaturedProject } from "@/lib/projects";
 
 export default async function ProjectPage({
