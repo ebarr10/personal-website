@@ -1,4 +1,3 @@
-// app/_components/NotePage.tsx
 import Link from "next/link";
 import { notFound } from "next/navigation";
 import { compileMDX } from "next-mdx-remote/rsc";
@@ -7,7 +6,8 @@ import { getNote, getNotesDisplay } from "@/lib/notes";
 type NoteCategory = "cooking" | "chinese" | "developer";
 
 function formatDate(date: string) {
-    return new Date(date).toLocaleDateString("en-US", {
+    const localDate = new Date(date + "T00:00:00");
+    return new Date(localDate).toLocaleDateString("en-US", {
         month: "short",
         day: "numeric",
         year: "numeric",

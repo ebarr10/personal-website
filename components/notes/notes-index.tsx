@@ -1,10 +1,11 @@
 import Link from "next/link";
-import { getAllNotes, getNotesDisplay } from "@/lib/notes";
+import { getAllNotes } from "@/lib/notes";
 
 type NoteCategory = "cooking" | "chinese" | "developer";
 
 function formatDate(date: string) {
-    return new Date(date).toLocaleDateString("en-US", {
+    const localDate = new Date(date + "T00:00:00");
+    return new Date(localDate).toLocaleDateString("en-US", {
         month: "short",
         day: "numeric",
         year: "numeric",
