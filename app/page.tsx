@@ -1,5 +1,5 @@
 import { Card } from "@/components/card";
-import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { FaGithub, FaLinkedin, FaRegFilePdf } from "react-icons/fa";
 
 export default function Home() {
     return (
@@ -73,6 +73,15 @@ export default function Home() {
                     aria-label="LinkedIn"
                 >
                     <FaLinkedin size={28} />
+                </a>
+                <a
+                    href="https://ebarr10.github.io/resume-website/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="transition hover:text-slate-900"
+                    aria-label="Resume"
+                >
+                    <FaRegFilePdf size={26} />
                 </a>
             </section>
         </main>
